@@ -1,0 +1,16 @@
+#pragma once
+void audio_init();
+void audio_main_menu();
+void audio_stop();
+void audio_change_level(int);
+void audio_level(int);
+void aud_yes();
+void aud_no();
+void aud_dec_live();
+void aud_block();
+void aud_wall_hit();
+void aud_bat_hit();
+void aud_level(int);
+void gameover();
+void win();
+void close();
